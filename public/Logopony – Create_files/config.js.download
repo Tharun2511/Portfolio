@@ -1,0 +1,16 @@
+window.__config = {
+  APP_PROTOCOL: 'https',
+  APP_DOMAIN: 'app.logopony.com',
+  PAYMENT_API_KEY: 'pk_live_MS5fbgZ_KrG3zftK_cns',
+  OLD_VERSION_URL: 'https://old.logopony.com',
+  LANDING_URL_EN: 'https://www.logopony.com/', 
+  LANDING_URL_FR: 'https://logoponey.fr/', 
+  LANDING_URL_ES: 'https://logoponi.es/', 
+  LANDING_URL_IT: 'https://logopony.it/', 
+  SENTRY_DSN: 'https://b2148ca47dab4b5091e6ad4fa92d5a87@sentry.io/296753',
+  GOOGLE_APP_ID: '5428399507-6sa5reabmmkuu0giqa5kljrepgkfjkns.apps.googleusercontent.com',
+  FACEBOOK_APP_ID: '1743475035874948',
+  PAYPAL_CLIENT_ID: 'AQX18yHoTfKxuHAnNs1RaBiFPLu3kSEpDUrbBO4NVUCTnVOL2gaJwZEqpFxATVDv2lVuXZNG6AC6uFpG',
+  GA_TRACKING_ID: 'UA-75476197-1',
+  AW_TRACKING_ID: 'AW-1024703254/2hDuCNnbjccBEJb2zugD',
+}
