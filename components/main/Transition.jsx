@@ -25,7 +25,7 @@ const Transition = () => {
                 initial="initial"
                 animate="animate"
                 exit="exit"
-                transition={{ duration: 0.1, ease: "easeInOut" }}
+                transition={{ duration: 0.6, ease: "easeInOut" }}
             />
             <motion.div
                 className="fixed top-0 bottom-0 right-full h-screen w-screen z-[9] bg-[#261873]"
