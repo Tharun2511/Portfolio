@@ -47,7 +47,7 @@ const HeroContent = () => {
                     variants={slideInFromLeft(0.8)}
                     className="text-lg text-gray-400 my-5 max-w-[600px]"
                 >
-                    I'm a final year student at SNIST, passionate about full
+                    I&apos;m a final year student at SNIST, passionate about full
                     stack development and Artificial Intelligence.
                 </motion.p>
                 <motion.a
