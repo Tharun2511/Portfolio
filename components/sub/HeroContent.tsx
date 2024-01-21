@@ -39,7 +39,7 @@ const HeroContent = () => {
                         </span>
                     </span>
                     <span className="text-4xl font-semibold">
-                        Let's build something amazing
+                        Let&apos;s build something amazing
                     </span>
                 </motion.div>
 
