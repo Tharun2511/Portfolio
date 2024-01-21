@@ -82,8 +82,9 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Discord",
-      src: "/instagram.svg",
+      name: "instagram",
+      href:"https://www.instagram.com/mr__gt____/",
+      component: "<FaInstagram />"
     },
     {
       name: "Facebook",
@@ -250,3 +251,22 @@ export const Skill_data = [
       height: 60,
     },
   ];
+  
+  export const NavContent = [
+    {
+        title:"About me",
+        path:"/aboutme"
+    },
+    {
+        title: "Skills",
+        path:"/skills"
+    },
+    {
+        title: "Projects",
+        path:"/projects"
+    },
+    {
+        title: "Contact",
+        path:"/contact"
+    }
+]

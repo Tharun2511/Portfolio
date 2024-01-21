@@ -3,28 +3,29 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
+import SideBar from "@/components/main/SideBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Personal Portfolio",
-  description: "This is my portfolio",
+    title: "Personal Portfolio",
+    description: "This is my portfolio",
 };
 
 export default function RootLayout({
-  children,
+    children,
 }: {
-  children: React.ReactNode;
+    children: React.ReactNode;
 }) {
-  return (
-    <html lang="en">
-      <body
-        className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
-      >
-        <StarsCanvas />
-        <Navbar />
-        {children}
-      </body>
-    </html>
-  );
+    return (
+        <html lang="en">
+            <body
+                className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden flex`}
+            >
+                <StarsCanvas />
+                <Navbar />
+                {children}
+            </body>
+        </html>
+    );
 }
