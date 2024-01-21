@@ -8,6 +8,7 @@ import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
+    const path = usePathname();
     return (
         <div>
             <video
@@ -37,7 +38,7 @@ const Navbar = () => {
                                     className="relative"
                                     key={item.title}
                                 >
-                                    {usePathname() === item.path && (
+                                    {path === item.path && (
                                         <motion.span
                                             layoutId="underline"
                                             className="absolute left-0 top-full block h-[2px] bg-sky-50 w-full"
