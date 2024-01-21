@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const SideBar = () => {
     return (
-        <div className="h-auto w-auto gap-8 fixed flex flex-col px-3 py-4 top-1/4 rounded-xl right-0 z-[51] text-xl font-bold bg-gradient-to-b from-purple-500 to-sky-500">
+        <div className="h-auto w-auto gap-8 fixed flex flex-col px-3 py-4 top-1/4 rounded-xl right-0 z-[3] text-xl font-bold bg-gradient-to-b from-purple-500 to-sky-500">
             <Link
                 href="https://www.instagram.com/mr__gt____/"
                 target="_blank"

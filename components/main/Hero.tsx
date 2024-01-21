@@ -1,6 +1,5 @@
 import React from "react";
 import HeroContent from "../sub/HeroContent";
-import SideBar from "./SideBar";
 
 const Hero = () => {
     return (
