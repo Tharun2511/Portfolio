@@ -1,12 +1,9 @@
-export default function Skills() {
-    return (
-        <div className="h-full w-full">
-            <div className="gap-20">
-                <div className="relative flex flex-col h-full w-full">
-                    
-                    <h1 className="text-white">Skills</h1>
-                </div>
-            </div>
-        </div>
-    );
-}
+"use client";
+
+import React from "react";
+
+const Skills = () => {
+    return <div className="h-full w-full"></div>;
+};
+
+export default Skills;

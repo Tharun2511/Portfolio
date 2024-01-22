@@ -8,6 +8,7 @@ import {
     slideInFromTop,
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
+import Image from "next/image";
 
 const HeroContent = () => {
     return (
@@ -62,11 +63,11 @@ const HeroContent = () => {
                 variants={slideInFromRight(0.8)}
                 className="w-full h-full flex justify-center items-center"
             >
-                <img
+                <Image
                     src="/mainIconsdark.svg"
                     alt="work icons"
-                    height={500}
-                    width={500}
+                    height="500"
+                    width="500"
                 />
             </motion.div>
         </motion.div>
