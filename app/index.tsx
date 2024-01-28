@@ -13,9 +13,9 @@ const Index = () => {
         <div>
             <AnimatePresence mode="wait">
                 <motion.div key={route} className="h-full">
-                    <Transition />
                     <StarsCanvas />
                     <Navbar />
+                    <Transition />
                 </motion.div>
             </AnimatePresence>
         </div>

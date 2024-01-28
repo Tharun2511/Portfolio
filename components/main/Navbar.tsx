@@ -38,7 +38,7 @@ const Navbar = () => {
                                     className="relative"
                                     key={item.title}
                                 >
-                                    {path === item.path && (
+                                    {path == item.path && (
                                         <motion.span
                                             layoutId="underline"
                                             className="absolute left-0 top-full block h-[2px] bg-sky-50 w-full"

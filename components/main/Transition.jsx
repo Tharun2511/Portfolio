@@ -22,7 +22,7 @@ const transVariants = {
 const Transition = () => {
     const path = usePathname();
     return (
-        path !== "/" && (
+        path != "/" && (
             <div>
                 <motion.div
                     className="fixed top-0 bottom-0 right-full h-screen w-screen z-[10] bg-[#030014]"

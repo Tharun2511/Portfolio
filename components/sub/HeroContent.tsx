@@ -15,7 +15,7 @@ const HeroContent = () => {
         <motion.div
             initial="hidden"
             animate="visible"
-            className="flex flex-row items-center justify-center px-20 mt-20 w-full z-[3] delay-700"
+            className="flex flex-row items-center justify-center px-20 mt-20 w-full z-[3]"
         >
             <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
                 <motion.div
@@ -46,7 +46,7 @@ const HeroContent = () => {
 
                 <motion.p
                     variants={slideInFromLeft(0.8)}
-                    className="text-lg text-gray-400 my-5 max-w-[600px]"
+                    className="text-sm text-gray-400 my-5 max-w-[600px]"
                 >
                     I&apos;m a final year student at SNIST, passionate about
                     full stack development and Artificial Intelligence.
