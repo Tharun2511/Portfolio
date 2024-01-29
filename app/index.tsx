@@ -13,7 +13,6 @@ const Index = () => {
         <div>
             <AnimatePresence>
                 <motion.div className="h-full">
-                    <Transition />
                     <StarsCanvas />
                     <Navbar />
                 </motion.div>
