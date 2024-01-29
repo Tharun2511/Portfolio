@@ -8,14 +8,14 @@ import { usePathname } from "next/navigation";
 import React from "react";
 
 const Index = () => {
-    const route = usePathname();
+    const router = usePathname();
     return (
         <div>
-            <AnimatePresence mode="wait">
-                <motion.div key={route} className="h-full">
+            <AnimatePresence>
+                <motion.div className="h-full">
+                    <Transition />
                     <StarsCanvas />
                     <Navbar />
-                    <Transition />
                 </motion.div>
             </AnimatePresence>
         </div>
