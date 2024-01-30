@@ -96,6 +96,14 @@ const AboutMe = () => {
                                         </span>
                                     </div>
                                 )}
+                                {Education[index].stream && (
+                                    <div>
+                                        Stream:{" "}
+                                        <span className="text-gray-400">
+                                            {Education[index].stream}
+                                        </span>
+                                    </div>
+                                )}
                                 <div>
                                     Location:{" "}
                                     <span className="text-gray-400">

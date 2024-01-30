@@ -248,6 +248,10 @@ export const Other_skill = [
 
 export const NavContent = [
     {
+        title: "Home",
+        path: "/",
+    },
+    {
         title: "About me",
         path: "/aboutme",
     },
@@ -270,7 +274,8 @@ export const Education = [
         title: "Bachelor Degree",
         Institute: "Sreenidhi Institutes of Science and Technology",
         Location: "Hyderabad, Telangana",
-        course: "Computer Science and Engineering",
+        course: "Bachelor of Technology",
+        stream: "Computer Science and Engineering",
         year: " 2020 - 2024 ",
         itemIndex: 0,
     },
@@ -287,5 +292,69 @@ export const Education = [
         Location: "Hyderabad, Telangana",
         year: "2018",
         itemIndex: 2,
+    },
+];
+
+export const skillsData = [
+    {
+        Domain: "Full Stack Development",
+        id: 0,
+        content: [
+            {
+                subDomain: "Frontend",
+                skills: [
+                    {
+                        name: "ReactJs",
+                    },
+                    {
+                        name: "NextJs",
+                    },
+                    {
+                        name: "TailwindCSS",
+                    },
+                    {
+                        name: "Framer-motion",
+                    },
+                    {
+                        name: "Redux",
+                    },
+                    {
+                        name: "ChakraUI",
+                    },
+                    {
+                        name: "Bootstrap",
+                    },
+                    {
+                        name: "HTML 5",
+                    },
+                    {
+                        name: "CSS",
+                    },
+                ],
+            },
+            {
+                subDomain: "Backend",
+                skills: [
+                    {
+                        name: "NodeJs",
+                    },
+                    {
+                        name: "ExpressJs",
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        Domain: "AI&ML",
+        id: 1,
+    },
+    {
+        Domain: "Other Technologies",
+        id: 2,
+    },
+    {
+        Domain: "Soft Skills",
+        id: 3,
     },
 ];
