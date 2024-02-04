@@ -298,63 +298,169 @@ export const Education = [
 export const skillsData = [
     {
         Domain: "Full Stack Development",
-        id: 0,
+        id: 1,
         content: [
             {
-                subDomain: "Frontend",
-                skills: [
-                    {
-                        name: "ReactJs",
-                    },
-                    {
-                        name: "NextJs",
-                    },
-                    {
-                        name: "TailwindCSS",
-                    },
-                    {
-                        name: "Framer-motion",
-                    },
-                    {
-                        name: "Redux",
-                    },
-                    {
-                        name: "ChakraUI",
-                    },
-                    {
-                        name: "Bootstrap",
-                    },
-                    {
-                        name: "HTML 5",
-                    },
-                    {
-                        name: "CSS",
-                    },
-                ],
+                name: "ReactJs",
+                Image: "/react.png",
+                width: 80,
+                height: 80,
             },
             {
-                subDomain: "Backend",
-                skills: [
-                    {
-                        name: "NodeJs",
-                    },
-                    {
-                        name: "ExpressJs",
-                    },
-                ],
+                name: "NextJs 13",
+                Image: "/next.png",
+                width: 80,
+                height: 80,
             },
+            {
+                name: "TailwindCSS",
+                Image: "/tailwind.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "Framer motion",
+                Image: "/framer.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "Redux",
+                Image: "/redux.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "ChakraUI",
+                Image: "/chakraui.png",
+                width: 80,
+                height: 80
+            },
+            {
+                name: "Bootstrap",
+                Image: "/bootstrap.png",
+                width: 80,
+                height: 80
+            },
+            {
+                name: "HTML 5",
+                Image: "/html.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "CSS",
+                Image: "/css.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "Node js",
+                Image: "/node-js.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "ExpressJs",
+                Image: "/express.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "MongoDB",
+                Image: "/mongodb.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "MySQL",
+                Image: "/mysql.png",
+                width: 80,
+                height: 80,
+            },
+            
         ],
     },
     {
         Domain: "AI&ML",
-        id: 1,
-    },
-    {
-        Domain: "Other Technologies",
         id: 2,
+        content: [
+            {
+                name: "OpenCV",
+                Image: "/opencv.jpeg",
+                width:80,
+                height:80
+            },
+            {
+                name:"Image Processing",
+                Image: "/imageprocessing.png",
+                width:80,
+                height:80
+            },
+            {
+                name:"Deep Learning",
+                Image: "/deeplearning.jpeg",
+                width:80,
+                height:80
+            },
+            {
+                name:"Data Science",
+                Image: "/datascience.jpeg",
+                width:80,
+                height:80
+            },
+            {
+                name:"Tensorflow",
+                Image: "/tensorflow.png",
+                width:80,
+                height:80
+            },
+            {
+                name:"Keras",
+                Image: "/keras.png",
+                width:80,
+                height:80
+            },
+            {
+                name:"Numpy",
+                Image: "/numpy.png",
+                width:80,
+                height:80
+            },
+            {
+                name:"Pandas",
+                Image: "/pandas.png",
+                width:80,
+                height:80
+            },
+            {
+                name:"Scikit-Learn",
+                Image: "/scikit.svg",
+                width:80,
+                height:80
+            },
+            {
+                name:"MatplotLib",
+                Image: "/matplotlib.svg",
+                width:80,
+                height:80
+            },
+            {
+                name:"Wandb",
+                Image: "/wandb.png",
+                width:80,
+                height:80
+            }
+        ]
     },
-    {
-        Domain: "Soft Skills",
-        id: 3,
-    },
+    // {
+    //     Domain: "Other Technologies",
+    //     id: 3,
+    //     content: []
+    // },
+    // {
+    //     Domain: "Soft Skills",
+    //     id: 4,
+    //     content: []
+    // },
 ];

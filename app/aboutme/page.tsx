@@ -7,6 +7,10 @@ import {
     slideInFromRight,
     slideInFromTop,
 } from "@/utils/motion";
+import { FaPersonSnowboarding } from "react-icons/fa6";
+import { BsFillPersonFill } from "react-icons/bs";
+import { FaUserGraduate } from "react-icons/fa";
+import { MdOutlineLaptopChromebook } from "react-icons/md";
 import { Education } from "@/constants";
 
 const AboutMe = () => {
@@ -22,11 +26,13 @@ const AboutMe = () => {
                     variants={slideInFromTop}
                     className="flex flex-col gap-6 mt-6 text-4xl font-bold text-white w-full h-auto"
                 >
-                    <span>
-                        About
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                            {" "}
-                            me
+                    <span className="flex">
+                        <div className="w-fit pr-3">
+                            <FaPersonSnowboarding />
+                        </div>
+                        About{" "}
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 ml-2">
+                            ME
                         </span>
                     </span>
 
@@ -35,8 +41,9 @@ const AboutMe = () => {
                             variants={slideInFromLeft(0.8)}
                             className="border-2 border-[#7042f88b] rounded-2xl opacity-1 h-full w-full flex flex-col gap-4 m-auto text-start"
                         >
-                            <div className="text-2xl pt-4 ml-5">
-                                A little bit about me
+                            <div className="text-2xl pt-4 ml-5 flex items-center">
+                                <BsFillPersonFill />
+                                <div className="pl-2">A little bit about me</div>
                             </div>
                             <p className="text-base text-gray-400 font-serif px-5 pb-4 text-justify">
                                 Hello! I&apos;m Guduguntla Tharun, a final-year
@@ -59,7 +66,7 @@ const AboutMe = () => {
                             variants={slideInFromRight(0.8)}
                             className="border-2 border-[#7042f88b] rounded-2xl opacity-1 h-full w-full flex flex-col gap-4 m-auto text-start"
                         >
-                            <div className="text-2xl pt-4 ml-5">Education</div>
+                            <div className="text-2xl pt-4 ml-5 flex gap-2 items-center"><FaUserGraduate />Education</div>
                             <div className="flex gap-x-4 mx-5 mb-4 font-serif">
                                 {Education.map((item) => {
                                     return (
