@@ -1,8 +1,7 @@
 "use client";
 
-import Navbar from "@/components/main/Navbar";
-import StarsCanvas from "@/components/main/StarBackground";
-import Transition from "@/components/main/Transition";
+import Navbar from "@/components/Navbar";
+import StarsCanvas from "@/components/StarBackground";
 import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import React from "react";
