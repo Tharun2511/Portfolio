@@ -313,8 +313,20 @@ export const skillsData = [
                 height: 80,
             },
             {
+                name: "Node js",
+                Image: "/node-js.png",
+                width: 80,
+                height: 80,
+            },
+            {
                 name: "TailwindCSS",
                 Image: "/tailwind.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "ExpressJs",
+                Image: "/express.png",
                 width: 80,
                 height: 80,
             },
@@ -331,38 +343,14 @@ export const skillsData = [
                 height: 80,
             },
             {
-                name: "ChakraUI",
-                Image: "/chakraui.png",
-                width: 80,
-                height: 80
-            },
-            {
-                name: "Bootstrap",
-                Image: "/bootstrap.png",
-                width: 80,
-                height: 80
-            },
-            {
-                name: "HTML 5",
-                Image: "/html.png",
+                name: "Docker",
+                Image: "/docker.webp",
                 width: 80,
                 height: 80,
             },
             {
-                name: "CSS",
-                Image: "/css.png",
-                width: 80,
-                height: 80,
-            },
-            {
-                name: "Node js",
-                Image: "/node-js.png",
-                width: 80,
-                height: 80,
-            },
-            {
-                name: "ExpressJs",
-                Image: "/express.png",
+                name: "Socket.io",
+                Image: "/socket.png",
                 width: 80,
                 height: 80,
             },
@@ -378,86 +366,212 @@ export const skillsData = [
                 width: 80,
                 height: 80,
             },
-            
+            {
+                name: "ChakraUI",
+                Image: "/chakraui.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "Bootstrap",
+                Image: "/bootstrap.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "Typescript",
+                Image: "/ts.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "Javascript",
+                Image: "/js.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "HTML 5",
+                Image: "/html.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "CSS",
+                Image: "/css.png",
+                width: 80,
+                height: 80,
+            },
         ],
     },
     {
-        Domain: "AI&ML",
+        Domain: "Data Science",
         id: 2,
         content: [
             {
                 name: "OpenCV",
                 Image: "/opencv.jpeg",
-                width:80,
-                height:80
+                width: 80,
+                height: 80,
             },
             {
-                name:"Image Processing",
+                name: "Image Processing",
                 Image: "/imageprocessing.png",
-                width:80,
-                height:80
+                width: 80,
+                height: 80,
             },
             {
-                name:"Deep Learning",
+                name: "Deep Learning",
                 Image: "/deeplearning.jpeg",
-                width:80,
-                height:80
+                width: 80,
+                height: 80,
             },
             {
-                name:"Data Science",
+                name: "Machine Learning",
+                Image: "/ml.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "Data Science",
                 Image: "/datascience.jpeg",
-                width:80,
-                height:80
+                width: 80,
+                height: 80,
             },
             {
-                name:"Tensorflow",
+                name: "Tensorflow",
                 Image: "/tensorflow.png",
-                width:80,
-                height:80
+                width: 80,
+                height: 80,
             },
             {
-                name:"Keras",
+                name: "Keras",
                 Image: "/keras.png",
-                width:80,
-                height:80
+                width: 80,
+                height: 80,
             },
             {
-                name:"Numpy",
+                name: "Python",
+                Image: "/python.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "Numpy",
                 Image: "/numpy.png",
-                width:80,
-                height:80
+                width: 80,
+                height: 80,
             },
             {
-                name:"Pandas",
+                name: "Pandas",
                 Image: "/pandas.png",
-                width:80,
-                height:80
+                width: 80,
+                height: 80,
             },
             {
-                name:"Scikit-Learn",
-                Image: "/scikit.svg",
-                width:80,
-                height:80
+                name: "Scikit-Learn",
+                Image: "/scikit.png",
+                width: 80,
+                height: 80,
             },
             {
-                name:"MatplotLib",
+                name: "MatplotLib",
                 Image: "/matplotlib.svg",
-                width:80,
-                height:80
+                width: 80,
+                height: 80,
             },
             {
-                name:"Wandb",
+                name: "AWS",
+                Image: "/aws.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "Wandb",
                 Image: "/wandb.png",
-                width:80,
-                height:80
-            }
+                width: 80,
+                height: 80,
+            },
+        ],
+    },
+    {
+        Domain: "Other Technologies",
+        id: 3,
+        content: [
+            {
+                name: "Java Programming",
+                Image: "/java.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "Python Programming",
+                Image: "/python.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "Javascript Programming",
+                Image: "/js.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "C Programming",
+                Image: "/c.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "OOPS",
+                Image: "/oops.jpg",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "Operating Systems",
+                Image: "/operatingSystems.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "Computer Networks",
+                Image: "/computerNetworks.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "DBMS",
+                Image: "/dbms.jpg",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "Linux",
+                Image: "/linux.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "Windows",
+                Image: "/windows.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "Git",
+                Image: "/git.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "Github",
+                Image: "/github.png",
+                width: 80,
+                height: 80,
+            },
         ]
     },
-    // {
-    //     Domain: "Other Technologies",
-    //     id: 3,
-    //     content: []
-    // },
     // {
     //     Domain: "Soft Skills",
     //     id: 4,

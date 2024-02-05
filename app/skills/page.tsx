@@ -27,10 +27,10 @@ const Skills = () => {
                 </span>
             </motion.div>
             <motion.div
-                className="w-full h-3/4 border border-[#7042f861] bg-[#0300145a] shadow-lg shadow-[#2A0E61]/50 backdrop-blur-lg py-3 px-[20px] mb-[10px] rounded-[40px] text-gray-200 flex flex-col items-center justify-center"
+                className="w-full h-3/4 border border-[#7e54ff61] bg-[#0300145a] shadow-lg shadow-[#2A0E61]/50 backdrop-blur-lg py-3 px-[20px] rounded-[40px] text-gray-200 flex flex-col items-center justify-center"
                 variants={slideinFromBottom}
             >
-                <div className="flex w-full h-1/6 justify-between items-center font-serif font-bold text-gray-400 px-8 transition-all ease-linear duration-500">
+                <div className="flex w-full h-full justify-between items-center font-serif font-bold text-gray-400 px-8 pb-1 transition-all ease-linear duration-500">
                     <div className="w-1/3 flex justify-start">
                         {index - 1 >= 0 ? skillsData[index - 1].Domain : ""}
                     </div>
@@ -43,7 +43,7 @@ const Skills = () => {
                             : ""}
                     </div>
                 </div>
-                <div className="grid grid-cols-7 gap-5 py-5 px-2 overflow-y-scroll w-full h-[350px]">
+                <div className="grid grid-cols-7 gap-5 py-3 px-2 overflow-y-scroll w-full h-[350px]">
                     {index - 1 >= 0 && (
                         <div
                             className="text-xl bg-black text-gray-400 p-3 rounded-3xl w-fit h-auto absolute top-2/4 left-[-20px] hover:text-white hover:text-2xl transition-all duration-300"
@@ -68,7 +68,7 @@ const Skills = () => {
                                 className="bg-black w-[130px] h-[130px] rounded-xl flex flex-col items-center justify-center p-2 shadow-lg shadow-cyan-400 hover:shadow-purple-400 transition-all duration-300"
                                 key={skill.name}
                             >
-                                <div className="h-[120px] w-fit py-1 align-middle">
+                                <div className="h-[120px] w-fit py-1 flex items-center">
                                     <Image
                                         alt={skill.name}
                                         src={skill.Image}
@@ -76,7 +76,9 @@ const Skills = () => {
                                         height={skill.height}
                                     />
                                 </div>
-                                <div className="text-white pb-1">{skill.name}</div>
+                                <div className="text-white text-sm pb-1">
+                                    {skill.name}
+                                </div>
                             </div>
                         );
                     })}
