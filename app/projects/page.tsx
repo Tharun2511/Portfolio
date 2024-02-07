@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { MdWorkHistory } from "react-icons/md";
 import { motion } from "framer-motion";
 import { slideInFromTop, slideinFromBottom } from "@/utils/motion";
 import { GiFilmProjector } from "react-icons/gi";

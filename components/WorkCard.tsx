@@ -1,13 +1,13 @@
-import { workData } from "@/constants";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
 
 interface Props {
     title: string;
     image: string;
-    width: number,
-    height:number,
+    width: number;
+    height: number;
     desc: string;
     technologies: string;
     gitLink: string;
@@ -34,7 +34,9 @@ const WorkCard = ({
                 className="w-full h-2/4 p-2"
             />
             <div className=" p-4">
-                <h1 className="text-xl font-semibold text-white font-serif">{title}</h1>
+                <h1 className="text-xl font-semibold text-white font-serif">
+                    {title}
+                </h1>
                 <p className="mt-1 text-gray-300 text-md overflow-clip text-base font-sans">
                     {technologies}
                 </p>
@@ -42,8 +44,12 @@ const WorkCard = ({
                     {desc}
                 </p>
                 <div className="flex justify-between text-white text-3xl pt-4">
-                    <FaCode href={gitLink} className="text-shadow" />
-                    <FaExternalLinkAlt href={liveLink} className="text-shadow" />
+                    <Link href={gitLink} target="_blank">
+                        <FaCode className="text-shadow" />
+                    </Link>
+                    <Link href={liveLink} target="_blank">
+                        <FaExternalLinkAlt className="text-shadow" />
+                    </Link>
                 </div>
             </div>
         </div>
