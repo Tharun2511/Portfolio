@@ -10,7 +10,6 @@ import {
 import { FaPersonSnowboarding } from "react-icons/fa6";
 import { BsFillPersonFill } from "react-icons/bs";
 import { FaUserGraduate } from "react-icons/fa";
-import { MdOutlineLaptopChromebook } from "react-icons/md";
 import { Education } from "@/constants";
 
 const AboutMe = () => {
@@ -24,7 +23,7 @@ const AboutMe = () => {
             <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
                 <motion.div
                     variants={slideInFromTop}
-                    className="flex flex-col gap-6 mt-6 text-4xl font-bold text-white w-full h-auto"
+                    className="flex flex-col gap-6 mt-6 text-3xl font-bold text-white w-full h-auto"
                 >
                     <span className="flex">
                         <div className="w-fit pr-3">

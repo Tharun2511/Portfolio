@@ -79,22 +79,6 @@ export const Skill_data = [
     },
 ];
 
-export const Socials = [
-    {
-        name: "instagram",
-        href: "https://www.instagram.com/mr__gt____/",
-        component: "<FaInstagram />",
-    },
-    {
-        name: "Facebook",
-        src: "/facebook.svg",
-    },
-    {
-        name: "Instagram",
-        src: "/discord.svg",
-    },
-];
-
 export const Frontend_skill = [
     {
         skill_name: "Html 5",
@@ -570,11 +554,69 @@ export const skillsData = [
                 width: 80,
                 height: 80,
             },
-        ]
+        ],
     },
-    // {
-    //     Domain: "Soft Skills",
-    //     id: 4,
-    //     content: []
-    // },
+];
+
+export const workData = [
+    {
+        title: "Real TIme Chat Application",
+        image: "/p1.png",
+        width:1536,
+        height:768,
+        Technologies: "ReactJS, NodeJs, MongoDB, Socket.io",
+        desc: "An innovative online chat application enabling real-time communication across the globe. Seamlessly connect with friends and colleagues, fostering collaboration and connectivity.",
+        gitLink: "https://github.com/Tharun2511/online-chat-app",
+        liveLink: "https://online-chat-app-jknb.onrender.com/",
+    },
+    {
+        title: "Personal Portfolio",
+        image: "/p2.png",
+        width:1674,
+        height:837,
+        Technologies: "NextJS, TailwindCSS, Framer Motion",
+        desc: "A dynamic platform for showcasing skills, experiences, and accomplishments in a visually engaging manner, tailored to professional aspirations. Crafted to impress and engage potential employers and collaborators.",
+        gitLink: "https://github.com/Tharun2511/Portfolio",
+        liveLink: "https://portfolio-tharun2511s-projects.vercel.app/",
+    },
+    {
+        title: "Movie Renting System",
+        image: "/p3.png",
+        width:1300,
+        height:650,
+        Technologies: "ReactJS, NodeJs, MongoDB, ExpressJS",
+        desc: "Effortlessly rent movies online with our intuitive platform. Browse, select, and enjoy your favorite films from the comfort of your home. Streamline your movie rental experience with our user-friendly interface.",
+        gitLink: "https://github.com/Tharun2511/vidly-FE",
+        liveLink: "https://vidly-fe.onrender.com/",
+    },
+    {
+        title: "Sign Language Recognition",
+        image: "/p4.png",
+        width:730,
+        height:365,
+        Technologies: "OpenCV, NLP, Tensorflow, Python",
+        desc: "Break barriers with innovative sign language recognition technology. Empower the deaf and mute community through seamless sign language interpretation with our cutting-edge technology.",
+        gitLink: "",
+        liveLink: "",
+    },
+    {
+        title: "Human Emotion Detection",
+        image: "/p5.png",
+        width:1200,
+        height:600,
+        Technologies: "OpenCV, Tensorflow, Python, FastAPI",
+        desc: "Uncover a new dimension of human expression with advanced facial emotion detection algorithms. Experience real-time analysis of facial expressions with state-of-the-art emotion recognition technology.",
+        gitLink: "https://github.com/Tharun2511/Human_Emotions_Detection",
+        liveLink: "",
+    },
+    {
+        title: "Malaria Diagnosis using CNN",
+        image: "/p6.jpg",
+        width:598,
+        height:299,
+        Technologies: "CNN, Tensorflow, Python, Flask",
+        desc: "Utilize Convolutional Neural Networks (CNN) to revolutionize malaria diagnosis. Employ advanced image processing techniques for accurate, efficient detection of malaria parasites in blood samples.",
+        gitLink: "",
+        liveLink: "",
+    },
 ];

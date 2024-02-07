@@ -14,7 +14,7 @@ const Skills = () => {
             className="w-full h-full flex flex-col z-[3] px-20 mt-20 gap-5"
         >
             <motion.div
-                className="text-white text-4xl mt-6 font-bold w-full h-1/4 flex gap-2"
+                className="text-white text-3xl mt-6 font-bold w-full h-1/4 flex gap-2"
                 variants={slideInFromTop}
             >
                 <ImPencil2 />

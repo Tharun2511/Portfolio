@@ -80,3 +80,13 @@ html {
   background: rgba(50, 50, 50, 1);
   border-radius: 20px;
 }
+
+.text-shadow{
+  text-shadow: 2px 2px 8px #22d3ee;
+}
+
+.text-shadow:hover{
+  cursor: pointer;
+  color: #22d3ee;
+  filter:drop-shadow(4px 4px 8px #22d3ee);
+}
