@@ -586,8 +586,8 @@ export const workData = [
         height:837,
         Technologies: "NextJS, TailwindCSS, Framer Motion",
         desc: "Crafted a dynamic weather application with Next.js and MongoDB, seamlessly amalgamating real-time weather with intuitive interface for quick and accurate forecasts, ensuring users stay informed and prepared in style.",
-        gitLink: "https://github.com/Tharun2511/Portfolio",
-        liveLink: "https://portfolio-tharun2511s-projects.vercel.app/",
+        gitLink: "https://github.com/Tharun2511/dailyweather",
+        liveLink: "https://dailyweather-theta.vercel.app",
     },
     {
         title: "Movie Renting System",
