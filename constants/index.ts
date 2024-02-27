@@ -285,19 +285,19 @@ export const skillsData = [
         id: 1,
         content: [
             {
-                name: "ReactJs",
+                name: "React",
                 Image: "/react.png",
                 width: 80,
                 height: 80,
             },
             {
-                name: "NextJs 13",
+                name: "Next",
                 Image: "/next.png",
                 width: 80,
                 height: 80,
             },
             {
-                name: "Node js",
+                name: "Node",
                 Image: "/node-js.png",
                 width: 80,
                 height: 80,
@@ -309,7 +309,7 @@ export const skillsData = [
                 height: 80,
             },
             {
-                name: "ExpressJs",
+                name: "Express",
                 Image: "/express.png",
                 width: 80,
                 height: 80,
@@ -333,8 +333,20 @@ export const skillsData = [
                 height: 80,
             },
             {
+                name: "Kubernetes",
+                Image: "/kubernetes.png",
+                width: 80,
+                height: 80,
+            },
+            {
                 name: "Socket.io",
                 Image: "/socket.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "GraphQL",
+                Image: "/graphql.png",
                 width: 80,
                 height: 80,
             },
@@ -347,6 +359,12 @@ export const skillsData = [
             {
                 name: "MySQL",
                 Image: "/mysql.png",
+                width: 80,
+                height: 80,
+            },
+            {
+                name: "PostgreSQL",
+                Image: "/postgresql.png",
                 width: 80,
                 height: 80,
             },
