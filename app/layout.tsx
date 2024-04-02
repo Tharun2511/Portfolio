@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Index from "./index";
-import { useRouter } from "next/navigation";
+import { ToastContainer } from "react-toastify";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +23,7 @@ export default function RootLayout({
             >
                 <Index />
                 {children}
+                <ToastContainer />
             </body>
         </html>
     );

@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
 import React from "react";
 import SideBar from "./SideBar";
 import { NavContent } from "@/constants/index";
@@ -15,11 +14,11 @@ const Navbar = () => {
                 autoPlay
                 muted
                 loop
-                className="rotate-180 absolute top-[-285px] w-full h-auto left-0 z-1 object-cover"
+                className="rotate-180 absolute top-[-48vh] w-full h-auto left-0 z-1 object-cover"
             >
                 <source src="/blackhole.webm" type="video/webm" />
             </video>
-            <div className="w-full h-[65px] absolute top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-[4] px-10">
+            <div className="w-full h-[12vh] absolute top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-[4] px-10">
                 <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
                     <Link
                         href="/"

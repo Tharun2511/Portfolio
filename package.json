@@ -16,9 +16,7 @@
         "react-dom": "^18",
         "react-icons": "^4.12.0",
         "react-loader-spinner": "^6.1.6",
-        "react-loader-spinners": "^1.0.0",
-        "react-spinners": "^0.13.8",
-        "react-toastify": "^10.0.4",
+        "react-toastify": "^10.0.5",
         "sharp": "^0.33.2",
         "swiper": "^11.0.5"
     },

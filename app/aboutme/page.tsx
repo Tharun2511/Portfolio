@@ -18,7 +18,7 @@ const AboutMe = () => {
         <motion.div
             initial="hidden"
             animate="visible"
-            className="flex items-center justify-center px-20 mt-20 w-full z-[3]"
+            className="flex items-center justify-center px-20 mt-20 w-full z-[3] cursor-default"
         >
             <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
                 <motion.div
@@ -42,7 +42,9 @@ const AboutMe = () => {
                         >
                             <div className="text-2xl pt-4 ml-5 flex items-center">
                                 <BsFillPersonFill />
-                                <div className="pl-2">A little bit about me</div>
+                                <div className="pl-2">
+                                    A little bit about me
+                                </div>
                             </div>
                             <p className="text-base text-gray-400 font-serif px-5 pb-4 text-justify">
                                 Hello! I&apos;m Guduguntla Tharun, a final-year
@@ -65,7 +67,10 @@ const AboutMe = () => {
                             variants={slideInFromRight(0.8)}
                             className="border-2 border-[#7042f88b] rounded-2xl opacity-1 h-full w-full flex flex-col gap-4 m-auto text-start"
                         >
-                            <div className="text-2xl pt-4 ml-5 flex gap-2 items-center"><FaUserGraduate />Education</div>
+                            <div className="text-2xl pt-4 ml-5 flex gap-2 items-center">
+                                <FaUserGraduate />
+                                Education
+                            </div>
                             <div className="flex gap-x-4 mx-5 mb-4 font-serif">
                                 {Education.map((item) => {
                                     return (
